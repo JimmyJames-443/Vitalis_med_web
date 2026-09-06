@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Environment variables / API Keys / Secrets
+.env
+.env.local
+*.pem
+*.key
+*.bin
+hik_config.bin
+pass.xml
+
+# IDEs & Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit local settings & cache
+.streamlit/secrets.toml
+
+# Local test outputs & heavy datasets
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+!assets/*.png
+*.csv
+*.log
+
+
+#venv
+
