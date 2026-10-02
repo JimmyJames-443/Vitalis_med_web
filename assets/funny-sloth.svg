@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" role="img" aria-label="Sloth project manager: progress 3 percent, deadline yesterday">
+  <rect width="640" height="340" rx="16" fill="#eef7ee" stroke="#c5dcc5" stroke-width="2"/>
+
+  <!-- branch -->
+  <rect x="0" y="28" width="280" height="16" rx="8" fill="#7a5230"/>
+  <path d="M60 28 Q70 10 90 14 M200 28 Q215 8 240 12" fill="none" stroke="#4f9d4f" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="90" cy="12" rx="14" ry="7" fill="#5cb85c"/>
+  <ellipse cx="240" cy="10" rx="14" ry="7" fill="#5cb85c"/>
+
+  <!-- arms hanging from branch -->
+  <path d="M122 150 L106 44 M198 150 L214 44" stroke="#a0764a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M100 46 L96 62 M108 46 L108 64 M116 46 L120 62 M208 46 L204 62 M216 46 L216 64 M224 46 L228 62" stroke="#f3ead9" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- legs -->
+  <path d="M138 220 L128 262 M182 220 L192 262" stroke="#a0764a" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="160" cy="185" rx="56" ry="64" fill="#a0764a"/>
+  <ellipse cx="160" cy="195" rx="34" ry="42" fill="#c9a47a"/>
+
+  <!-- head -->
+  <circle cx="160" cy="120" r="44" fill="#c9a47a"/>
+  <!-- face mask -->
+  <ellipse cx="140" cy="116" rx="17" ry="12" fill="#6b4a2b" transform="rotate(-25 140 116)"/>
+  <ellipse cx="180" cy="116" rx="17" ry="12" fill="#6b4a2b" transform="rotate(25 180 116)"/>
+  <!-- sleepy eyes -->
+  <circle cx="141" cy="117" r="5" fill="#fff"/>
+  <circle cx="179" cy="117" r="5" fill="#fff"/>
+  <circle cx="141" cy="119" r="2.5" fill="#111"/>
+  <circle cx="179" cy="119" r="2.5" fill="#111"/>
+  <path d="M132 114 H150 M170 114 H188" stroke="#3b2812" stroke-width="4" stroke-linecap="round"/>
+  <!-- nose + calm smile -->
+  <ellipse cx="160" cy="132" rx="6" ry="4" fill="#3b2812"/>
+  <path d="M146 142 Q160 154 174 142" fill="none" stroke="#3b2812" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- zzz -->
+  <text x="212" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#4b6b4b">z</text>
+  <text x="224" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#4b6b4b">z</text>
+  <text x="240" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#4b6b4b">Z</text>
+
+  <!-- speech bubble -->
+  <rect x="20" y="276" width="250" height="44" rx="12" fill="#fff" stroke="#24292f" stroke-width="2.5"/>
+  <path d="M120 277 L140 262 L160 277" fill="#fff" stroke="#24292f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M123 276 H157" stroke="#fff" stroke-width="4"/>
+  <text x="145" y="304" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#24292f">We'll start... eventually.</text>
+
+  <!-- whiteboard -->
+  <rect x="300" y="24" width="320" height="236" rx="8" fill="#fff" stroke="#8a94a0" stroke-width="4"/>
+  <text x="460" y="56" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#24292f">SPRINT PLANNING</text>
+  <path d="M320 66 H600" stroke="#d0d7de" stroke-width="2"/>
+
+  <text x="320" y="96" font-family="Consolas, Menlo, monospace" font-size="14" fill="#24292f">Task: fix one bug</text>
+  <rect x="320" y="106" width="240" height="20" rx="10" fill="#e5e7eb"/>
+  <rect x="320" y="106" width="9" height="20" rx="5" fill="#22c55e"/>
+  <text x="590" y="122" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="700" fill="#24292f">3%</text>
+
+  <text x="320" y="158" font-family="Consolas, Menlo, monospace" font-size="14" fill="#24292f">ETA: soon (tm)</text>
+  <text x="320" y="188" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="700" fill="#dc2626">Deadline: YESTERDAY</text>
+  <text x="320" y="218" font-family="Consolas, Menlo, monospace" font-size="14" fill="#24292f">Status: vibing</text>
+  <text x="320" y="246" font-family="Consolas, Menlo, monospace" font-size="12" fill="#6b7280">Meetings to plan meetings: 14</text>
+
+  <!-- footer -->
+  <text x="460" y="298" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#4b6b4b">Daily standup: 3 hours, nobody moved</text>
+</svg>
